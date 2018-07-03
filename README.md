@@ -8,4 +8,6 @@ The GUI currently works for month data downloads, but a yearly one is in progres
 Ensure both files are in the same folder, and run the "PVSpot_data_GUI.py" file. A GUI will come up where you can choose sites and months, then click OK. 
 After that, the webscraper will run. Do not close or interfere with Chrome while the webscraper is running.
 
+The files will be downloaded to the folder specified on line 159 of the GUI file (currently "I:\A SOLAR PV\Commercial PV\PLANT MONITORING\Archive\Data")
+
 Required modules for this to work: selenium, tkinter, math
